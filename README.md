@@ -7,13 +7,11 @@ You can find a playlist of Super videos about git by [link](https://www.youtube.
 ﻿﻿* JavaScript
   1. TypeScript:
 interface Shape {
-  color: string;
+  Color: string;
 }
-
 function draw(shape: Shape) {
   console.log(`Drawing a ${shape.color} shape`);
 }
-
 let circle = { color: 'red' };
 draw(circle);
 
